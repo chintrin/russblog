@@ -1,3 +1,4 @@
 name: Russ Chan
 markdown: kramdown
 theme: jekyll-theme-modernist
+baseurl: /russblog
