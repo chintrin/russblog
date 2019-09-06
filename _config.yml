@@ -1,4 +1,17 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 name: Russ Chan
 markdown: kramdown
 theme: jekyll-theme-modernist
 baseurl: /russblog
+author:
+  name: Russ Chan
+  email: rc@russchan.com
+
+paginate: 10 #post pagination
+paginate_path: "page:num"
+exclude: ["README.md"]
+tags_path: tags.html
+categories_path: categories.html
+rss_path: feed.xml
+plugins:
+  - jekyll-paginate
